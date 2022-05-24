@@ -24,7 +24,7 @@ const Sidebar = () => {
       <a
         className="flex items-center justify-center px-2 py-1 my-2 bg-gray-200 rounded-full cursor-pointer dark:bg-dark-200 dark:bg-black-500"
         href="/resume.pdf"
-        download="Sam DeMuth Resume.pdf"
+        download="Sam_DeMuth_Resume.pdf"
       >
         <GiTie className="w-6 h-6" />
         Download Resume
@@ -47,7 +47,7 @@ const Sidebar = () => {
           <GoLocation />
           <span>Petoskey, MI</span>
         </div>
-        <p className="my-2">demuths1@oregonstate.edu</p>
+        <p className="my-2">demuths@oregonstate.edu</p>
       </div>
       {/* email button */}
       <button
